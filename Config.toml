@@ -1,0 +1,42 @@
+### This is the Config File ###
+# Every type of Plugin has Plugins that are loaded before and after *Original's Game Plugins*.
+# And there is three types of Plugins: Configurable Plugins, Unconfigurable Plugins.
+# And Plugins that need an game restart to take effect.
+
+# To Configurate it, just write inside the "[]" the name of files of plugins inside the plugins folder in your
+# correct folder. (The name need to be with '' or "")
+#Example:
+
+#  [UnConfig]
+#  Before = []
+#  After = [
+#    "TY_YEP_ItemCore.js",
+#    "TY_DetailedEquip.js",
+#    "TY_FnHForceActionFix.js",
+#    "TY_FnHFreeSoulStones.js",
+#    "TY_FnHInvincible.js",
+#  ]
+
+#========================================================CONFIGS===========================================================
+[Plugins]
+Before = []
+After = []
+
+[UnConfig]
+Before = []
+After = []
+
+[Startup]
+Before = []
+After = []
+#========================================================CONFIGS END ===========================================================
+
+# "Why Plugins can load after and before?"
+#===================================================================================================================
+# Because making the plugin load this way, give more possibilities and compatibility with games plugins.
+# For exemple, with this we can overwrite an plugin configuration from game because RPG Games have protection against load
+# Plugins two times.
+#===================================================================================================================
+# Also, there plugins that give proplems to game if loaded after certain plugins, but doesn't give any proplems if
+# loaded before.
+#===================================================================================================================

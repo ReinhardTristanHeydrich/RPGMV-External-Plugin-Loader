@@ -1,0 +1,1 @@
+# This Folder is for Plugins who configuration effects needs an restart on game.
