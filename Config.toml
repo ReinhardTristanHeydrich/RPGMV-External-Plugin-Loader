@@ -1,7 +1,6 @@
 ### This is the Config File ###
 # Every type of Plugin has Plugins that are loaded before and after *Original's Game Plugins*.
-# And there is three types of Plugins: Configurable Plugins, Unconfigurable Plugins.
-# And Plugins that need an game restart to take effect.
+# And there is two types of Plugins: Configurable Plugins, Unconfigurable Plugins.
 
 # To Configurate it, just write inside the "[]" the name of files of plugins inside the plugins folder in your
 # correct folder. (The name need to be with '' or "")
@@ -20,15 +19,23 @@
 #========================================================CONFIGS===========================================================
 [Plugins]
 Before = []
-After = []
+After = [
+  "YEP_SaveCore"
+]
 
 [UnConfig]
 Before = []
-After = []
-
-[Startup]
-Before = []
-After = []
+After = [
+  "TY_DetailedEquip",
+  "TY_FnHFreeLuckyCoins",
+  "TY_FnHFreeSaves",
+  "TY_FnHFreeSoulStones",
+  "TY_FnHHexenMenu",
+  "TY_FnHInfiniteStamina",
+  "TY_FnHInvincible",
+  "TY_FnHShowRecipes",
+  "TY_YEP_ItemCore",
+]
 #========================================================CONFIGS END ===========================================================
 
 # "Why Plugins can load after and before?"

@@ -1,0 +1,66 @@
+#---General---
+"Max Files" = 99
+"Saved Icon" = 0
+"Empty Icon" = 0
+"Return After Saving" = true
+"Auto New Index" = true
+
+#"---Action Window---"
+"Load Command" = "Load"
+"Save Command" = "Save"
+"Delete Command" = "Delete"
+
+#"---Help Window---"
+"Select Help" = "Please select a file slot."
+"Load Help" = "Loads the data from the saved game."
+"Save Help" = "Saves the current progress in your game."
+"Delete Help" = "Deletes all data from this save file."
+
+#---Delete---
+"Delete Filename" = ""
+"Delete Volume" = ""
+"Delete Pitch" = ""
+"Delete Pan" = ""
+
+#"---Info Window---"
+"Show Game Title" = "true"
+"Invalid Game Text" = "This save is for a different game."
+"Empty Game Text" = "Empty"
+"Map Display Name" = "true"
+"Party Display" = "2"
+"Party Y Position" = "this.lineHeight() + Window_Base._faceHeight"
+"Show Actor Names" = "true"
+"Name Font Size" = "20"
+"Show Actor Level" = false
+"Level Font Size" = "20"
+"Level Format" = '\c#16%1 \c#0%3'
+"Data Font Size" = "20"
+"Data Column 1" = "location, playtime, save count, variable 201"
+"Data Column 2" = ""
+"Data Column 3" = ""
+"Data Column 4" = ""
+
+#---Vocabulary---
+"Map Location" = ""
+Playtime = "Playtime:"
+"Save Count" = "Total Saves:"
+"Gold Count" = "%1:"
+
+#---Technical---
+"Save Mode" = "auto"
+"Local Config" = "config.rpgsave"
+"Local Global" = "global.rpgsave"
+"Local Save" = "file%1.rpgsave"
+"Web Config" = "RPG %1 Config"
+"Web Global" = "RPG %1 Global"
+"Web Save" = "RPG %1 File%2"
+
+#---Confirmation---
+"Load Confirmation" = "true"
+"Load Text" = "Do you wish to load this save file?"
+"Save Confirmation" = "true"
+"Save Text" = "Do you wish to overwrite this save file?"
+"Delete Confirmation" = "true"
+"Delete Text" = "Do you wish to delete this save file?"
+"Confirm Yes" = "Yes"
+"Confirm No" = "No"
